@@ -2,8 +2,7 @@ set modelines=0" CVE-2007-2438
 set term=xterm-256color
 
 
-set runtimepath+=~/gits/Priv_Other/vim/.vim
-"set runtimepath=~/gits/Priv_Other/vim/.vim
+set runtimepath+=~/gits/environment_files/vim/.vim
 runtime indent/*.vim
 runtime search/*.vim
 runtime autoload/*.vim
