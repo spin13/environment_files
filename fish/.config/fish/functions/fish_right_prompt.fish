@@ -1,0 +1,1 @@
+/Users/spin/.config/fisherman/zish/fish_right_prompt.fish
