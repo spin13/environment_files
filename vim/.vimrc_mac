@@ -1,0 +1,35 @@
+set modelines=0" CVE-2007-2438
+set term=xterm-256color
+
+filetype off
+filetype plugin indent off
+
+
+set runtimepath+=~/gits/environment_files/vim/.vim
+runtime indent/*.vim
+runtime search/*.vim
+runtime ftdetect/*.vim
+
+set encoding=utf-8
+scriptencoding utf-8
+set number
+set ruler
+set list
+set expandtab
+set showmatch
+set nocompatible
+
+set backspace=indent,eol,start
+
+highlight ZenkakuSpace cterm=underline ctermfg=Blue guifg=Blue
+au BufRead,BufNew * match ZenkakuSpace /　/
+
+syntax on
+set t_Co=256
+colorscheme dracula
+set background=dark
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
