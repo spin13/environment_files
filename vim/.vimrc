@@ -1,10 +1,14 @@
 set modelines=0" CVE-2007-2438
 set term=xterm-256color
 
+set nocompatible
+filetype on
+filetype indent on
+filetype plugin on
 
 set runtimepath+=~/gits/environment_files/vim/.vim
-runtime indent/*.vim
-runtime search/*.vim
+runtime indent/indent.vim
+runtime search/search.vim
 runtime autoload/*.vim
 
 
