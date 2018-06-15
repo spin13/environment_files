@@ -5,6 +5,9 @@
 " Release Coordinator:  Doug Kearns <dougkearns@gmail.com>
 " ----------------------------------------------------------------------------
 
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 if (exists("b:did_ftplugin"))
   finish
 endif
